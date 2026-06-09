@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Quality Goal\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Quality Procedure\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Quality Inspection\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Quality Review\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Quality Action\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Non Conformance\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports & Masters</b></span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Goal and Procedure\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Feedback\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Meeting\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Review and Action\",\"col\":4}}]",
+ "content": "[{\"id\":\"SwOZ_nqQwA\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"BG6oPCoRYV\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Quality Goal\",\"col\":3}},{\"id\":\"mgHxTXQ0Yl\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Quality Procedure\",\"col\":3}},{\"id\":\"sEOcfO4qQ5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Quality Inspection\",\"col\":3}},{\"id\":\"A620UOnJIw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Quality Review\",\"col\":3}},{\"id\":\"1GtY7-nuHg\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Quality Action\",\"col\":3}},{\"id\":\"R9DgeIoNQJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Non Conformance\",\"col\":3}},{\"id\":\"qWGMeYA-iB\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"-YmHncI9Xz\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"EVUNB8L-Mp\",\"type\":\"card\",\"data\":{\"card_name\":\"Goal and Procedure\",\"col\":4}},{\"id\":\"UEksyP0CNj\",\"type\":\"card\",\"data\":{\"card_name\":\"Feedback\",\"col\":4}},{\"id\":\"zk2DntIKJR\",\"type\":\"card\",\"data\":{\"card_name\":\"Meeting\",\"col\":4}},{\"id\":\"kTgRNsuiJd\",\"type\":\"card\",\"data\":{\"card_name\":\"Review and Action\",\"col\":4}}]",
  "creation": "2020-03-02 15:49:28.632014",
  "custom_blocks": [],
  "docstatus": 0,
@@ -144,18 +144,18 @@
    "type": "Link"
   }
  ],
- "modified": "2023-05-24 14:47:22.597974",
+ "modified": "2026-01-15 17:52:11.080756",
  "modified_by": "Administrator",
  "module": "Quality Management",
  "name": "Quality",
  "number_cards": [],
  "owner": "Administrator",
- "parent_page": "",
+ "parent_page": "Ops Managment",
  "public": 1,
  "quick_lists": [],
  "restrict_to_domain": "",
  "roles": [],
- "sequence_id": 9.0,
+ "sequence_id": 33.0,
  "shortcuts": [
   {
    "color": "Grey",

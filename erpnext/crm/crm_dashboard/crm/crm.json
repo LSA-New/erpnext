@@ -11,6 +11,9 @@
   },
   {
    "card": "Open Opportunity"
+  },
+  {
+   "card": "Draft Quotation Amt"
   }
  ],
  "charts": [
@@ -50,7 +53,7 @@
  "idx": 0,
  "is_default": 0,
  "is_standard": 1,
- "modified": "2020-07-21 18:56:47.230053",
+ "modified": "2026-05-10 10:57:51.835113",
  "modified_by": "Administrator",
  "module": "CRM",
  "name": "CRM",

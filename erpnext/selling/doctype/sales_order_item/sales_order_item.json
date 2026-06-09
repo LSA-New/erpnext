@@ -552,7 +552,6 @@
    "oldfieldtype": "Link",
    "options": "Quotation",
    "print_hide": 1,
-   "read_only": 1,
    "search_index": 1
   },
   {
@@ -971,13 +970,14 @@
  "idx": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-02-28 09:45:44.934947",
+ "modified": "2026-03-11 10:10:41.471288",
  "modified_by": "Administrator",
  "module": "Selling",
  "name": "Sales Order Item",
  "naming_rule": "Random",
  "owner": "Administrator",
  "permissions": [],
+ "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],

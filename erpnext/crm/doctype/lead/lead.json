@@ -15,36 +15,25 @@
   "first_name",
   "middle_name",
   "last_name",
+  "company_name",
+  "industry",
+  "market_segment",
   "column_break_1",
   "lead_name",
   "job_title",
   "gender",
+  "mobile_no",
+  "phone",
+  "email_id",
+  "website",
   "source",
+  "sub_source",
   "col_break123",
   "lead_owner",
   "status",
   "customer",
   "type",
   "request_type",
-  "contact_info_tab",
-  "email_id",
-  "website",
-  "column_break_20",
-  "mobile_no",
-  "whatsapp_no",
-  "column_break_16",
-  "phone",
-  "phone_ext",
-  "organization_section",
-  "company_name",
-  "no_of_employees",
-  "column_break_28",
-  "annual_revenue",
-  "industry",
-  "market_segment",
-  "column_break_31",
-  "territory",
-  "fax",
   "address_section",
   "address_html",
   "column_break_38",
@@ -53,6 +42,18 @@
   "country",
   "column_break2",
   "contact_html",
+  "contact_info_tab",
+  "whatsapp_no",
+  "column_break_20",
+  "column_break_16",
+  "phone_ext",
+  "organization_section",
+  "no_of_employees",
+  "column_break_28",
+  "annual_revenue",
+  "column_break_31",
+  "territory",
+  "fax",
   "qualification_tab",
   "qualification_status",
   "column_break_64",
@@ -151,12 +152,14 @@
   {
    "fieldname": "salutation",
    "fieldtype": "Link",
+   "hidden": 1,
    "label": "Salutation",
    "options": "Salutation"
   },
   {
    "fieldname": "gender",
    "fieldtype": "Link",
+   "hidden": 1,
    "label": "Gender",
    "options": "Gender"
   },
@@ -166,7 +169,8 @@
    "label": "Source",
    "oldfieldname": "source",
    "oldfieldtype": "Select",
-   "options": "Lead Source"
+   "options": "Lead Source",
+   "reqd": 1
   },
   {
    "depends_on": "eval:doc.source == 'Existing Customer'",
@@ -228,7 +232,8 @@
    "label": "Mobile No",
    "oldfieldname": "mobile_no",
    "oldfieldtype": "Data",
-   "options": "Phone"
+   "options": "Phone",
+   "reqd": 1
   },
   {
    "fieldname": "fax",
@@ -441,6 +446,7 @@
   {
    "fieldname": "organization_section",
    "fieldtype": "Section Break",
+   "hidden": 1,
    "label": "Organization"
   },
   {
@@ -510,14 +516,19 @@
    "fieldtype": "Tab Break",
    "label": "Connections",
    "show_dashboard": 1
+  },
+  {
+   "fieldname": "sub_source",
+   "fieldtype": "Data",
+   "label": "Sub Source"
   }
  ],
  "icon": "fa fa-user",
  "idx": 5,
  "image_field": "image",
  "links": [],
- "modified": "2025-01-31 13:40:08.094759",
- "modified_by": "Administrator",
+ "modified": "2026-05-10 04:30:00.915789",
+ "modified_by": "lokesh.bwr@gmail.com",
  "module": "CRM",
  "name": "Lead",
  "naming_rule": "By \"Naming Series\" field",
@@ -575,6 +586,7 @@
    "role": "Sales User"
   }
  ],
+ "row_format": "Dynamic",
  "search_fields": "lead_name,lead_owner,status",
  "sender_field": "email_id",
  "sender_name_field": "lead_name",
